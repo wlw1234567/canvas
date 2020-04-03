@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>canvas</title>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  
+</body>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  #canvas {
+    margin: 0 auto;
+    display: block;
+    background: gray;
+    /* border: 1px solid red; */
+  }
+</style>
+<script src="js/progress.js"></script>
+<script src="js/bg.js"></script>
+<script src="js/land.js"></script>
+<script src="js/game.js"></script>
+
+<script>
+  let game = new Game()
+  console.log(game);
+  
+  // var canvas = document.getElementById('canvas')
+  // var draw = canvas.getContext('2d')
+  // var n = 0
+  // setInterval(() => {
+  //   draw.fillStyle = `rgb(${Math.round(Math.random()*255)}, ${Math.round(Math.random()*255)}, ${Math.round(Math.random()*255)})`
+  //   // draw.clearRect(0,0,400,400)
+  //   draw.fillRect(n++, n++, 100, 100)
+  // },10)
+</script>
+</html>
